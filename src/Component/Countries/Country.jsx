@@ -8,7 +8,7 @@ const Country = ({item}) => {
         
     }
     return (
-        <div className='country'>
+        <div className={`country ${visited ? 'visite' :'non-visite'}`}>
             <h3>Country Name {name?.common}</h3>
             <img src={flags?.png} alt="" />
             <p>Population : {population}</p>
