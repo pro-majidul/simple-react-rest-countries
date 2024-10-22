@@ -10,3 +10,7 @@
 .non-visite{
     background: cornflowerblue;
 }
+.flag-container > img{
+    width: 100px; margin-left: 10px;
+    height: 100px;
+}
